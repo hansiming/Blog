@@ -47,7 +47,7 @@ permalink: /archivers/surrounded_regions
 
 ----
 
-```Java
+{% highlight java %}
 /**
  * Created by hansiming on 2016/11/28.
  */
@@ -78,4 +78,4 @@ public class Solution {
         return dfs(node.left, sum) + dfs(node.right, sum);
     }
 }
-```
+{% endhighlight %}
