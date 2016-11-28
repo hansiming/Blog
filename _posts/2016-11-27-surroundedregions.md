@@ -46,7 +46,7 @@ permalink: /archivers/surrounded_regions
 
 > O O X X
 
-> X X X X 
+> X X X X
 
 > 在上面的2D Board中，第二行的两个O是连着触碰到了边界，所以这两个O都不能变为'X'
 > 根据上述很容易就想到方法：
@@ -57,7 +57,7 @@ permalink: /archivers/surrounded_regions
 
 ----
 
-```Java
+{% highlight java %}
 /**
  * Created by hansiming on 2016/11/24.
  */
@@ -121,4 +121,4 @@ public class Solution {
 //        }
 //    }
 }
-```
+{% endhighlight %}
