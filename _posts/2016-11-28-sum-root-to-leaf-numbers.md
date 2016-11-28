@@ -3,7 +3,7 @@ layout: post
 title:  "LeetCode : Sum Root To Leaf Numbers"
 date:   2016-11-27 23:12:13
 categories: leetcode
-permalink: /archivers/surrounded_regions
+permalink: /archivers/sum_root_to_leaf_numbers
 ---
 # LeetCode : Surrounded Regions
 ----
