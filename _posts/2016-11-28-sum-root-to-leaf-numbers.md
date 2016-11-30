@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LeetCode : Sum Root To Leaf Numbers"
-date:   2016-11-27 23:12:13
+date:   2016-11-28 23:12:13
 categories: leetcode
 permalink: /archivers/sum_root_to_leaf_numbers
 ---
