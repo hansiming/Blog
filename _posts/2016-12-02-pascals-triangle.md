@@ -19,9 +19,9 @@ permalink: /archivers/pascals_triangle
 > Return
 > [
 
->      [1],
+>     [1],
 
->     [1,1],
+>    [1,1],
 
 >    [1,2,1],
 
