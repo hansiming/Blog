@@ -35,3 +35,45 @@ permalink: /archivers/distinct_subsequences
 >   * 因为当T为空串的时候，无论S的子串为什么，都只能出现一次，所以，第一列的值都为1.
 >   * 当S.charAt(i - 1) != T.charAt(j - 1),针对S来说，这个字符只能被忽略，所以值为dp[i - 1][j]。
 >   * 当S.charAt(i - 1) == T.charAt(j - 1)，针对S来说，就包含了忽略该字符，和不忽略该字符，所以矩阵值为dp[i - 1][j - 1] + dp [i - 1][j]
+
+### 代码
+
+----
+
+{% highlight java %}
+
+package distinct_subsequences;
+
+/**
+ * Created by hansiming on 2016/12/6.
+ */
+public class Solution {
+
+    public int numDistinct(String S, String T) {
+        if(S == null || T == null)
+            return 0;
+        int row = S.length();
+        int col = T.length();
+
+        int dp[][] = new int[row + 1][col + 1];
+        //当T为空串的时候，都有1种方法
+        for(int i = 0; i < row; i++) {
+            dp[i][0] = 1;
+        }
+
+        for(int i = 1; i <= row; i++) {
+            for(int j = 1; j <= col; j++) {
+                //去掉当前字符
+                dp[i][j] = dp[i - 1][j];
+                //如果相等，加上当前字符
+                if(S.charAt(i - 1) == T.charAt(j - 1)) {
+                    dp[i][j] += dp[i - 1][j - 1];
+                }
+            }
+        }
+
+        return dp[row][col];
+    }
+}
+
+{% endhighlight %}
