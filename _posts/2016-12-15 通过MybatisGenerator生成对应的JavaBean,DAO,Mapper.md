@@ -65,3 +65,5 @@ permalink: /archivers/mybatis_generator
   * mybatis-generator-core-1.3.5.jar MybatisGenerator核心包，下载地址https://github.com/mybatis/generator/releases。
 
   * mysql-connector-java-5.1.37.jar Mysql驱动包，在配置文件中要写明该包的路径。
+
+生成语句 java -jar mybatis-generator-core-1.3.2.jar -configfile generatorConfig.xml -overwrite
