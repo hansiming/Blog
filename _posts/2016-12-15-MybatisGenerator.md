@@ -10,6 +10,8 @@ permalink: /archivers/mybatis_generator
 ----
 
 ## 问题背景
+
+
 ----
   这两天在重新做个项目，因为要用Mybatis，但是写JavaBean，Mapper什么的，挺麻烦的，就找了MybatisGenerator来生成。
 
