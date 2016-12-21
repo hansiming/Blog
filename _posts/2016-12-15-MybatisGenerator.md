@@ -2,10 +2,10 @@
 layout: post
 title:  "通过MybatisGenerator生成对应的JavaBean,DAO,Mapper"
 date:   2016-12-15 22:22:23
-categories: mysql
+categories: mybatis
 permalink: /archivers/mybatis_generator
 ---
-# Mybatis 通过MybatisGenerator生成对应的JavaBean，DAO，Mapper
+# Mybatis:通过MybatisGenerator生成对应的JavaBean，DAO，Mapper
 ----
 ----
 
