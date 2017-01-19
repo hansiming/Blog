@@ -1,4 +1,4 @@
-# Site settings
+﻿# Site settings
 title: 韩思明的博客
 url: "https://hansiming.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
@@ -9,7 +9,7 @@ description: >
 # Your information
 email: 294098789@qq.com
 author: 韩思明
-avatar: "http://photo.l99.com/bigger/5d3/1479462133873_jf2zn0.jpg"
+avatar: "/img/头像.png"
 profile: 热爱Java，欢迎交流。
 #twitter_username: twitter_username
 github_username: hansiming 
