@@ -17,3 +17,6 @@ CREATE TABLE blogs (id INT PRIMARY KEY AUTO_INCREMENT, title VARCHAR(1047) NOT N
  ALTER TABLE comments ADD CONSTRAINT fk_comments_blogs_blog_id FOREIGN KEY (blog_id) REFERENCES blogs(id);
  
  ALTER TABLE comments ADD CONSTRAINT fk_comments_users_user_id FOREIGN KEY (user_id) REFERENCES users(id);
+
+  INSERT INTO `blog`.`blogs`(`id`,`title`,`content`,`create_time`,`comment_count`,`upvote_count`,`watch_count`,`lable`,`recommend`,`user_id`) 
+ VALUES ( NULL,'第一篇博客','第一篇博客的内容','2017-03-04','0','0','0','哈哈','0','1');
