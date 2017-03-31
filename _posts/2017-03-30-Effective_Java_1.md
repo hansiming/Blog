@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Effective Java 1 考虑用静态工厂方法代替构造器"
-date:   2017-03-30 22:22:23
+date:   2017-03-30 07:22:23
 categories: effective_java
 permalink: /archivers/effective_java_1
 ---
